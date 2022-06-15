@@ -1,70 +1,6 @@
-# Project 3 - *InstagramClone*
+# Project 3 - *Pastagram*
 
-**Name of your app** is a photo sharing app similar to Instagram but using Parse as its backend.
-
-Time spent: **15** hours spent in total
-
-## User Stories
-
-The following **required** functionality is completed:
-
-- [x] User can view the last 20 posts submitted to "Instagram".
-- [x] The user should switch between different tabs - viewing all posts (feed view), compose (capture photos form camera) and profile tabs (posts made) using fragments and a Bottom Navigation View. (2 points)
-- [x] User can pull to refresh the last 20 posts submitted to "Instagram".
-
-The following **optional** features are implemented:
-
-- [ ] User sees app icon in home screen and styled bottom navigation view
-- [ ] Style the feed to look like the real Instagram feed.
-- [ ] User can load more posts once he or she reaches the bottom of the feed using infinite scrolling.
-- [ ] Show the username and creation time for each post.
-- [ ] User can tap a post to view post details, including timestamp and caption.
-- [ ] User Profiles
-      - [ ] Allow the logged in user to add a profile photo
-      - [ ] Display the profile photo with each post
-      - [ ] Tapping on a post's username or profile photo goes to that user's profile page and shows a grid view of the user's posts 
-- [ ] User can comment on a post and see all comments for each post in the post details screen.
-- [ ] User can like a post and see number of likes for each post in the post details screen.
-
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='InstagramClone2.gif' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
-## Notes
-
-Describe any challenges encountered while building the app.
-
-## Open-source libraries used
-
-- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
-- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
-
-## License
-
-    Copyright [yyyy] [name of copyright owner]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-# Project 3 - *InstagramClone*
-
-**InstagramClone** is a photo sharing app similar to Instagram but using Parse as its backend.
+**Pastagram** is a photo sharing app using Parse as its backend.
 
 Time spent: **20** hours spent in total
 
@@ -72,37 +8,62 @@ Time spent: **20** hours spent in total
 
 The following **required** functionality is completed:
 
-- [x] User can sign up to create a new account using Parse authentication.
-- [x] User can log in and log out of his or her account.
-- [x] The current signed in user is persisted across app restarts.
-- [x] User can take a photo, add a caption, and post it to "Instagram".
+- [ ] User sees app icon in home screen.
+- [x] User can sign up to create a new account using Parse authentication
+- [x] User can log in to their account
+- [x] The current signed in user is persisted across app restarts
+- [ ] User can log out of their account
+- [x] User can take a photo, add a caption, and post it to "Instagram"
+- [x] User can view the last 20 posts submitted to "Instagram"
+- [x] User can pull to refresh the last 20 posts submitted to "Instagram"
+- [ ] User can tap a post to go to a Post Details activity, which includes timestamp and caption.
 
-The following **optional** features are implemented:
+The following **stretch** features are implemented:
 
-- [ ] User sees app icon in home screen and styled bottom navigation view
+- [ ] Style the login page to look like the real Instagram login page.
 - [ ] Style the feed to look like the real Instagram feed.
-- [ ] After the user submits a new post, show an indeterminate progress bar while the post is being uploaded to Parse.
+- [ ] User can load more posts once they reach the bottom of the feed using endless scrolling.
+- [ ] User should switch between different tabs using fragments and a Bottom Navigation View.
+- [ ] Feed Tab (to view all posts from all users)
+- [x] Capture Tab (to make a new post using the Camera and Photo Gallery)
+- [x] Profile Tab (to view only the current user's posts, in a grid)
+- [ ] Show the username and creation time for each post
+- User Profiles:
+- [ ] Allow the logged in user to add a profile photo
+- [ ] Display the profile photo with each post
+- [ ] Tapping on a post's username or profile photo goes to that user's profile page
+- [ ] User Profile shows posts in a grid
+- [ ] After the user submits a new post, show an indeterminate progress bar while the post is being uploaded to Parse
+- [ ] User can comment on a post and see all comments for each post in the post details screen.
+- [ ] User can like a post and see number of likes for each post in the post details screen.
 
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
+Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
+
+1.
+2.
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='InstagramClone.gif' />
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [Kap](https://getkap.co/).
+
+## Credits
+
+List an 3rd party libraries, icons, graphics, or other assets you used in your app.
+
+- [Android Async Http Client](http://loopj.com/android-async-http/) - networking library
+
 
 ## Notes
 
-I encountered a problem while I was trying to implement the data model, but it was resolved in no time.
-
-## Open-source libraries used
-
-- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
-- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
+Describe any challenges encountered while building the app.
 
 ## License
 
@@ -119,4 +80,3 @@ I encountered a problem while I was trying to implement the data model, but it w
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
-# Pastagram
